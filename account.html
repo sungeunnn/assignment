@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <link 
+            rel="short icon"
+            sizes="16x16 32x32 64x64"
+            href="https://nomadcoders.co/m.svg"
+        />
+        <title> Assignment</title>
+        <meta charset = "utf-8" />
+        <meta name="description" content="This is my website">
+    </head>
+    <body>
+       <form>
+            <header>
+                <h1>Create An Account</h1>
+            </header>
+
+            <div>
+                <label for = "firstname">First name</label>
+                <input id="firstname" required placeholder="First name" type ="text"/>
+            </div>
+
+            <div>
+                <label for = "lastname">Last name</label>
+                <input id="lastname" required placeholder="Last name" type ="text"/>
+            </div>
+
+            <div>
+            <label for = "email">Email</label>
+            <input id="email" required placeholder="Email" type="email"./>
+            </div>
+
+            <div>
+                <label for = "username">Username</label>
+                <input id="username" required placeholder="Username" type ="text"/>
+            </div>
+
+            <div>
+                <label for = "passwd">Password</label>
+                <input id="passwd" required placeholder="Password" type ="password" minlength="10"/>
+            </div>
+
+            <div>
+                <label for = "birth">Birth date</label>
+                <input id="birth" required  type ="date" />
+            </div>
+
+            <div>
+                <label for = "condition">How happy are you?</label>
+                <input id="condition" required type ="range" list="happy_list"/>
+                <datalist id="happy_list">
+                    <option value="0"></option>
+                    <option value="10"></option>
+                    <option value="20"></option>
+                    <option value="30"></option>
+                    <option value="40"></option>
+                    <option value="50"></option>
+                    <option value="60"></option>
+                    <option value="70"></option>
+                    <option value="80"></option>
+                    <option value="90"></option>
+                    <option value="100"></option>
+                </datalist>
+            </div>
+
+            <div>
+                <label for = "fav_color">What is your fav.color?</label>
+                <input id="fav_color" required type ="color" />
+            </div>
+
+
+            <input type="submit" value="Create Account" />
+       </form>
+    </body>
+</html>
