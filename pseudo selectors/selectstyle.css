@@ -1,0 +1,47 @@
+html{
+    background-color: lightgrey;
+}
+
+color{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.main{
+    height: 500px;
+    width: 250px;
+    border: 5px solid white;
+    margin: 10px;
+    position: relative;
+}
+
+.color_code{
+    height: 120px;
+    width: 250px;
+    position: absolute;
+    top: 25px;
+}
+
+div:nth-child(1)[class="main"]{
+    background-color: tomato;
+}
+
+div:nth-child(2)[class="main"]{
+    background-color: teal;
+}
+
+div:nth-child(3)[class="main"]{
+    background-color: burlywood;
+}
+
+div:nth-child(4)[class="main"]{
+    background-color: thistle;
+}
+
+div:last-child{
+    background-color: white;
+}
