@@ -9,3 +9,6 @@ HTML/CSS로 해당 화면 따라 만들기
 
 ## pseudo selectors
 HTML/CSS로 4개의 컬러 차트 만들기
+
+## animation
+HTML/CSS로 애니메이션 구현하기
