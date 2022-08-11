@@ -12,3 +12,7 @@ HTML/CSS로 4개의 컬러 차트 만들기
 
 ## animation
 HTML/CSS로 애니메이션 구현하기
+
+
+## playlist
+HTML/CSS Playlist 구현하기
