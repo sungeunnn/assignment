@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="recipe.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to recipe</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li><a class="nav__link" href="#"><i class="fas fa-bars fa-2x"></i></a></li>
+            <li class="nav__title"><a class="nav__link" href="book.html"> recipe  </a></li>
+            <li><a class="nav__link" href="#"><i class="far fa-bell fa-2x"></i></a></li>
+        </ul>
+    </nav>
+    
+    <div class="search">
+        <div class="search__content">
+            <input class="search__input" type="text" placeholder="Search recipe..." />
+            <button class="search__btn"> <i class="fas fa-search fa-2x"></i></button>
+        </div>
+    </div>
+
+    <main>
+        <div class="recipe">
+            <div class="main__title"> Today's Recommended Menu </div>
+            <div class="recipe_content">
+               <img class="recipe_content__img" src="img/egg.jpg">
+                <div class="recipe_content__detail">
+                    <div class="recipe_content__detail__ex">
+                        <span class="title">Egg Scrambled</span>
+                        <span class="detail">Egg, Salt, Onion</span>
+                        <div class="grade">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star" id="grey" ></i>
+                        </div>
+                        <div class="__detail__ex__recommend">
+                            <div class="__detail__ex__recommend__box">All ages</div>
+                            <div class="__detail__ex__recommend__box">Not Vegiterian</div>
+                        </div>
+                        <div class="__detail__ex__store">
+                            <div class="__detail__ex__store__bookmark">
+                                <i class="fas fa-bookmark"></i>
+                            </div>
+                            <div class="__detail__ex__store__read">
+                                Read Now
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="level">
+            <div class="main__title">Top Recipes</div>
+            <div class="level__type">
+                <div class="level__type__value">
+                    <div class="level__type__value__title">Level 1</div>
+                    <div class="grade">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" id="grey"></i>
+                    </div>
+                </div>
+                <div class="level__type__value">
+                    <div class="level__type__value__title">Level 2</div>
+                    <div class="grade">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="level__type__value">
+                    <div class="level__type__value__title">Level 3</div>
+                    <div class="grade">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="level__type__value">
+                   <div class="level__type__value__title">Level 4</div>
+                   <div class="grade">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star" id="grey"></i>
+                    <i class="fas fa-star" id="grey"></i>
+                </div>
+                </div>    
+            </div>
+        </div>
+
+        <div class="chef">
+            <div class="main__title">Popular Chef</div>
+            <div class="chef__introduce">
+                <div class="chef__introduce__img"><img src="img/chef.jpg" ></div>
+                <div class="chef__introduce__detail">
+                    <div class="title">Gordon Ramsay</div>
+                    <div class="detail" id="introduce">
+                        출생 1966. 11. 8. 영국</div>
+                    <div class="detail" id="introduce">
+                        신체 187.9cm</div>
+                    <div class="detail" id="introduce">
+                        소속 Gordon Ramsay(대표)  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+       
+
+    <script
+        src="http://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anoymous"
+    >
+    </script>
+</body>
+</html>
