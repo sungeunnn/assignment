@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
 
+
+  
 body {
+    width:780px;
     font-family: "Open Sans", sans-serif;
     background-color: rgb(244, 244, 244);
-
+    box-sizing: border-box;
 }
 
 .nav__list{
@@ -201,7 +204,7 @@ main {
 
 .chef__introduce{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
