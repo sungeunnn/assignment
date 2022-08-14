@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music-playlist</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <left>
+        <nav class="nav">
+            <li class="nav-btn">
+                <a class="nav_link" href="#">
+                    <i class="fas fa-arrow-left fa-xl"></i>
+                </a>
+            </li>
+            <li class="nav-btn">
+                <a class="nav_link" href="#">
+                    <i class="fas fa-search fa-xl"></i>
+                </a>
+            </li>
+        </nav>
+    
+        <div class="artist">
+            
+            <img src="img/artist.jpg" class="artist_IU" />
+    
+            <div class="introduce">
+                <div class="introduce__title introduce__title--xl">아이유(IU)</div>
+                <div class="introduce__sub introduce__sub--xl"> 솔로 | 발라드, 댄스, 록/메탈 </div>
+            </div>
+    
+            <div class="artist__effect">
+                <div class="artist__effect__shuffle">Shuffle</div>
+                <div class="artist__effect__like">
+                    <i class="fas fa-heart"></i>
+                    <span class="artist__effect__like-number">956 842</span>
+                </div>
+            </div>
+    
+        </div>
+    
+        <main>
+            <div class="music">
+                <div class="music__detail">
+                    <div class="music__detail__content">
+                        <img src="img/1.jpg" class="music__detail__img" />
+        
+                        <div class="introduce">
+                            <div class="introduce__sub introduce__sub--sm">아이유(IU)</div>
+                            <div class="introduce__title introduce__title--sm">밤편지</div>      
+                        </div>
+                    </div>
+                    
+                
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </div>
+            </div>
+    
+            <div class="music">
+                <div class="music__detail">
+                    <div class="music__detail__content">
+                        <img src="img/2.jpg" class="music__detail__img" />
+        
+                        <div class="introduce">
+                            <div class="introduce__sub introduce__sub--sm">아이유(IU)</div>
+                            <div class="introduce__title introduce__title--sm">드라마</div>      
+                        </div>
+                    </div>
+                    
+                
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </div>
+            </div>
+        
+            <div class="music">
+                <div class="music__detail" id="playing">
+                    <div class="music__detail__content" >
+                        <img src="img/main.jpg" class="music__detail__img" />
+        
+                        <div class="introduce">
+                            <div class="introduce__sub introduce__sub--sm">아이유(IU)</div>
+                            <div class="introduce__title introduce__title--sm">strawberry moon</div>      
+                        </div>
+                    </div>
+                    
+                
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </div>
+            </div>
+        
+            <div class="music">
+                <div class="music__detail">
+                    <div class="music__detail__content">
+                        <img src="img/3.jpg" class="music__detail__img" />
+        
+                        <div class="introduce">
+                            <div class="introduce__sub introduce__sub--sm">아이유(IU)</div>
+                            <div class="introduce__title introduce__title--sm">마음</div>      
+                        </div>
+                    </div>
+                    
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </div>
+            </div>
+        </main>
+    
+        <div class="status-bar">
+
+            <div class="status-bar-column">
+                <div class="introduce">
+                    <div class="introduce__sub introduce__sub--sm" id="grey">아이유(IU)</div>
+                    <div class="introduce__title introduce__title--sm">strawberry moon</div>      
+                </div>
+        
+                <div class="status-bar__control">
+                    <i class="fas fa-step-backward fa-xs"></i>
+                    <i class="fas fa-pause fa-lg"></i>
+                    <i class="fas fa-step-forward fa-xs"></i>
+                </div>
+            </div>
+            
+    
+    
+        </div>
+    </left>
+
+    <right>
+        <nav class="nav">
+            <li class="nav-btn">
+                <a class="nav_link" href="#">
+                    <i class="fas fa-arrow-left fa-xl"></i>
+                </a>
+            </li>
+            <li class="nav-btn">
+                <a class="nav_link" href="#">
+                    <i class="fas fa-ellipsis-v fa-xl"></i>
+                </a>
+            </li>
+        </nav>
+
+        <div class="now-play">
+            <img src="img/main.jpg" class="now-play__img" />
+
+            <div class="introduce">
+                <div class="introduce__title introduce__title--xl">strawberry moon</div>
+                <h6 class="introduce__sub introduce__sub--xl">아이유(IU)</h6>
+            </div>
+
+            
+
+        </div>
+
+        <div class="now-bar">
+            <div class="now-bar__past">
+                <span class="time">1:59</span>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+            </div>
+            <div class="now-bar__present">
+                <i class="fas fa-circle"></i>
+            </div>
+            <div class="now-bar__future">
+                <span class="time">3:25</span>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-minus"></i>
+            </div>
+        </div>
+
+        <div class="control-box">
+            <i id="grey" class="fas fa-undo-alt fa-sm"></i>
+            <i class="fas fa-step-backward fa-lg"></i>
+            <i class="fas fa-play fa-2x"></i>
+            <i class="fas fa-step-forward fa-lg"></i>
+            <i id="grey" class="fas fa-redo-alt fa-sm"></i>
+        </div>
+    </right>
+
+    
+
+    
+
+
+
+
+    <script
+        src="http://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anoymous"
+    >
+    </script>
+</body>
+</html>

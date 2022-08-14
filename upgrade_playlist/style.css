@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+/*Screen*/
+@import "screen/left.css";
+@import "screen/right.css";
+
+
+/*Componets*/
+@import "component/introduce.css";
+@import "component/nav.css";
+@import "component/music.css";
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0,0,0,0.1);
+
+    box-sizing: border-box;
+}

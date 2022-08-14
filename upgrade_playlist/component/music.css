@@ -1,0 +1,43 @@
+.music {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+}
+
+.music__detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+
+    height: 50px;
+    width: 280px;
+
+    border-radius: 10px;
+}
+
+.music__detail__content{
+    display:flex;
+    align-items: center;
+}
+
+.music__detail img{
+    height: 40px;
+    width: 40px;
+    border-radius: 15%;
+    background-color: rgb(249, 249, 249);
+    margin: 2px 10px;
+}
+
+.music i{
+    margin: 2px 20px;
+}
+
+#playing{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+}
+

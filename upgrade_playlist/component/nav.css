@@ -1,0 +1,13 @@
+li {
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 20px ;
+}
+
+.nav i{
+    color: rgba(0,0,0,0.7);
+}
