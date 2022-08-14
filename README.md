@@ -20,3 +20,6 @@ HTML/CSS Playlist 구현하기
 
 ## recipe
 HTML/CSS Recipe 소개 구현하기
+
+##upgrade_playlist
+HTML/CSS 한 페이지에 두 개의 화면 구성으로 좌측엔 가수와 곡을, 우측엔 노래재생화면을 
