@@ -37,7 +37,7 @@
 
 * upgrade_playlist
 > HTML/CSS 한 페이지에 두 개의 화면 구성으로 좌측엔 가수와 곡을, 우측엔 노래재생화면 
->> <img src = "https://github.com/sungeunnn/assignment/blob/main/upgrade_playlist/up_playlist.JPG" width="400" height = "600"/>
+>> <img src = "https://github.com/sungeunnn/assignment/blob/main/upgrade_playlist/up_playlist.JPG" width="800" height = "600"/>
 
 
 ***
