@@ -32,4 +32,4 @@
 
 * converter
 > 시(hour) <-> 분(minutes) 바꾸기
-> ! <https://github.com/sungeunnn/assignment/blob/main/converter/converter.JPG>
+> ![image](https://github.com/sungeunnn/assignment/blob/main/converter/converter.JPG)
